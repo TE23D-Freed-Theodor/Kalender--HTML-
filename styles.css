@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://c.tenor.com/hbgP1XRYo1UAAAAd/tenor.gif");
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+#datum {
+    text-align: center;
+    background-color: pink;
+    border: 5px solid black;
+    padding: 10px; /* litge padding kan väl ändå inte skada */
+    margin: 0 auto; /* Center elemt för att den ska bli symteritks´´s*/
+    width: 20%; /* 20 procent av bredden */
+}
+
+.calendar {
+    width: 50%;
+    background-color: #fff;
+    border-collapse: collapse;  
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+td {
+    border: 10px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: pink;
+    padding: 20px;
+}
+
+.calendar td {
+    background-color: #f9f9f9;
+}
+
+li {
+    padding: 5px;
+}
+
+ol {
+    margin: 0; /* Removes margin */
+    padding: 0; /* Removes padding */
+}
